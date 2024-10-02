@@ -1,0 +1,80 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*-webkit-animation-name: test;
+    -webkit-animation-duration: 5s;*/
+    position: absolute;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+/*@-webkit-keyframes test{
+    /*from{background-color: red;}
+    to{background-color: green;}*/
+    /*0%{background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: blue;}
+    100%{background-color: aqua;}
+}*/
+@keyframes test{
+    /*from{background-color: red;}
+    to{background-color: green;}*/
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 300px; top: 0px;}
+    50%{background-color: green; left: 300px; top: 300px;}
+    75%{background-color: blue; left: 0px; top: 300px;}
+    100%{background-color: aqua; left: 0px; top: 0px;}
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*-webkit-animation-name: test;
+    -webkit-animation-duration: 5s;*/
+    position: absolute;
+    animation-name: test1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes test1{
+    /*from{background-color: red;}
+    to{background-color: green;}*/
+    0%{background-color: rgb(0, 0, 0); left: 0px; top: 0px;}
+    25%{background-color: rgb(78, 153, 94); left: 600px; top: 0px;}
+    50%{background-color: rgb(0, 247, 255); left: 600px; top: 300px;}
+    75%{background-color: rgb(23, 51, 13); left: 0px; top: 300px;}
+    100%{background-color: rgb(119, 0, 255); left: 0px; top: 0px;}
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*-webkit-animation-name: test;
+    -webkit-animation-duration: 5s;*/
+    position: absolute;
+    animation-name: test2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes test2{
+    /*from{background-color: red;}
+    to{background-color: green;}*/
+    0%{background-color: rgb(90, 84, 3); left: 0px; top: 0px;}
+    25%{background-color: rgb(20, 255, 243); left: 900px; top: 0px;}
+    50%{background-color: rgb(99, 123, 255); left: 900px; top: 300px;}
+    75%{background-color: rgb(255, 11, 214); left: 0px; top: 300px;}
+    100%{background-color: rgb(255, 0, 0); left: 0px; top: 0px;}
+}
